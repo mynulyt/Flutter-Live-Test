@@ -10,9 +10,9 @@ class LiveTest extends StatelessWidget {
         padding: const EdgeInsets.all(15),
         child: Column(
           children: [
-            TextField(decoration: InputDecoration(label: Text("Name"))),
-            TextField(decoration: InputDecoration(label: Text("Age"))),
-            TextField(decoration: InputDecoration(label: Text("Salary"))),
+            TextFormField(decoration: InputDecoration(label: Text("Name"))),
+            TextFormField(decoration: InputDecoration(label: Text("Age"))),
+            TextFormField(decoration: InputDecoration(label: Text("Salary"))),
             SizedBox(height: 20),
             ElevatedButton(onPressed: () {}, child: Text("Add Employe")),
           ],
